@@ -12,8 +12,6 @@ class Board extends Component {
 		this.setState({
 			notes: [...this.state.notes, {id: id ,content: content}]
 		})
-    console.log("added new note")
-      console.log(this.state.notes)
 	}
 
 	saveNote = (id,content) => {
