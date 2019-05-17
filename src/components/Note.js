@@ -65,7 +65,7 @@ class Note extends Component {
         <div className="note" style={this.style}>
 					<p>{this.state.content}</p>
 					<span>
-						<button onClick={this.edit} id="edit">EDIT</button>
+						<button onClick={this.edit} id="edit">E</button>
 						<button onClick={this.remove} id="remove">X</button>
 					</span>
 				</div>

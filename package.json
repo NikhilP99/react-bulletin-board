@@ -1,4 +1,5 @@
 {
+  "homepage": "http://NikhilP99.github.io/react-bulletin-board",
   "name": "react-bulletin-board",
   "version": "0.1.0",
   "private": true,
@@ -7,11 +8,15 @@
     "react-dom": "^16.8.6",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
